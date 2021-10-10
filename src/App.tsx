@@ -1,11 +1,9 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import logo from './logo.svg';
 import './App.css';
 import Button from "@mui/material/Button";
 import { SkynetClient } from "skynet-js";
 import { FileSystemDAC } from "fs-dac-library";
-import { MySky } from 'skynet-js';
 import { Grid,Container } from "@mui/material";
 // Initiate the SkynetClient
 const portal = "https://siasky.net/";
