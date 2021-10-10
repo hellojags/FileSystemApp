@@ -54,7 +54,7 @@ function App() {
     const rootDirectoryIndex = await fileSystemDAC.getDirectoryIndex(
       "/localhost/"
     );
-    console.log(`rootDirectoryIndex -> ${rootDirectoryIndex}`);
+    console.log(`rootDirectoryIndex -> ${JSON.stringify(rootDirectoryIndex)}`);
   };
   // eslint-disable-next-line
   const handleMySkyLogin = async () => {
